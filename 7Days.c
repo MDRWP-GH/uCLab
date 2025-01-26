@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "freetos/FreeRTOS.h"
-#include "freetos/task.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 #include "driver/gptimer.h"
 #include "esp_log.h"
 
