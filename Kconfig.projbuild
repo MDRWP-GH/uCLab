@@ -1,0 +1,15 @@
+menu "Example Configuration"
+
+config GPIO_OUTPUT_0
+    int "GPIO output pin #0"
+    default 18
+    help
+        Set the GPIO pin for Pin #0
+
+config GPIO_OUTPUT_1
+    int "GPIO output pin #1"
+    default 19
+    help
+        Set the GPIO pin for Pin #1
+
+endmenu
